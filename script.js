@@ -12,8 +12,8 @@ const colorBoard = document.getElementById('color-board');
 
             // After 1 second, change background to transparent
             setTimeout(() => {
-                box.style.backgroundColor = 'transparent';
-            }, 100);
+                box.style.backgroundColor = 'rgb(29,29,29)';
+            }, 1000);
         });
 
         colorBoard.appendChild(box);
