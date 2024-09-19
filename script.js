@@ -13,7 +13,7 @@ const colorBoard = document.getElementById('color-board');
             // After 1 second, change background to transparent
             setTimeout(() => {
                 box.style.backgroundColor = 'transparent';
-            }, 1000);
+            }, 100);
         });
 
         colorBoard.appendChild(box);
